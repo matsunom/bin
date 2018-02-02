@@ -1,0 +1,5 @@
+#!/bin/sh
+#標準出力に表示
+pwd
+#クリップボードに保存
+pwd | chomp | pbcopy
